@@ -27,8 +27,54 @@ Preparing for the AP Calculus BC exam requires extensive practice. Creating qual
 
 ## Installation
 
+### macOS
+
+**Option 1: pipx (Recommended)**
+```bash
+brew install pipx
+pipx ensurepath
+```
+Restart your terminal, then:
+```bash
+pipx install bcpractice
+```
+
+**Option 2: pip**
+```bash
+pip3 install bcpractice
+```
+If you get "command not found" after installing, run with:
+```bash
+python3 -m bcpractice generate
+```
+
+### Windows
+
+**Step 1: Install Python** (if you haven't already)
+
+Download from [python.org](https://www.python.org/downloads/). During installation, check "Add Python to PATH".
+
+**Step 2: Install bcpractice**
+
+Open Command Prompt or PowerShell:
+
+**Option 1: pipx (Recommended)**
+```bash
+pip install pipx
+pipx ensurepath
+```
+Restart your terminal, then:
+```bash
+pipx install bcpractice
+```
+
+**Option 2: pip**
 ```bash
 pip install bcpractice
+```
+If you get "command not found" after installing, run with:
+```bash
+python -m bcpractice generate
 ```
 
 ### Requirements
