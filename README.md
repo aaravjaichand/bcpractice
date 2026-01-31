@@ -29,20 +29,43 @@ Preparing for the AP Calculus BC exam requires extensive practice. Creating qual
 
 ### macOS
 
-Don't have Homebrew? Install it first:
+**Step 1: Install Homebrew** (skip if you already have it)
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Then install pipx and bcpractice:
+After installation, add Homebrew to your PATH (Apple Silicon Macs):
+```bash
+echo >> ~/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+Verify it works:
+```bash
+brew --version
+```
+
+**Step 2: Install pipx**
 ```bash
 brew install pipx
 pipx ensurepath
 ```
 
-Restart your terminal, then:
+Add pipx's bin directory to your PATH:
+```bash
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zprofile
+source ~/.zprofile
+```
+
+**Step 3: Install bcpractice**
 ```bash
 pipx install bcpractice
+```
+
+Verify it works:
+```bash
+bcpractice --help
 ```
 
 ### Windows
