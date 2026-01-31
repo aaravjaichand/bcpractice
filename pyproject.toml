@@ -35,8 +35,8 @@ dependencies = [
 bcpractice = "bcpractice.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/aaravjaichand/bc-calc-practice"
-Repository = "https://github.com/aaravjaichand/bc-calc-practice"
+Homepage = "https://github.com/aaravjaichand/bcpractice"
+Repository = "https://github.com/aaravjaichand/bcpractice"
 
 [build-system]
 requires = ["hatchling"]

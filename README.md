@@ -181,7 +181,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 <div align="center">
 
-**[Report Bug](https://github.com/aaravjaichand/bc-calc-practice/issues)** • **[Request Feature](https://github.com/aaravjaichand/bc-calc-practice/issues)**
+**[Report Bug](https://github.com/aaravjaichand/bcpractice/issues)** • **[Request Feature](https://github.com/aaravjaichand/bcpractice/issues)**
 
 Made for students, by a student.
 
